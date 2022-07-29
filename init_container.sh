@@ -9,4 +9,8 @@ npm install --save-dev @babel/core babel-loader @babel/preset-env @babel/preset-
 mkdir -p src/client
 cd src/client
 touch index.js
+cd /usr/src/graphbook
+npm install --save react-helmet
+npm install --save-dev mini-css-extract-plugin
+
 
